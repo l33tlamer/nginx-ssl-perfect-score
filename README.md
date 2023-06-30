@@ -41,3 +41,11 @@ Paste your public SSL cert as PEM into the textfield, either just the cert or fu
 
 After adding the record, propagation can take some time. You can test for the proper record with this:
 https://www.huque.com/bin/danecheck
+
+To generate CAA records you can use https://sslmate.com/caa/ and then add them to your domain.
+A example would be:
+```
+Name 	         Type     Flags     Tags     Value
+example.com.	 CAA	  0         issue    "letsencrypt.org"
+example.com.     CAA      0         iodef    "mailto:mail@example.com"
+```

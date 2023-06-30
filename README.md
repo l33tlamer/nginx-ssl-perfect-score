@@ -46,6 +46,10 @@ the following format into the interface at https://nic.eu.org (submit each line 
 
 `example.eu.org.  86400  IN DS  38257 13 2 35dca...`
 
+Propagation can take some time. You can test your setup with https://dnssec-analyzer.verisignlabs.com/
+
+https://dnsviz.net/ could also be helpful.
+
 # DANE TLSA
 
 You first must have a working DNSSEC setup, then you can proceed to add this.

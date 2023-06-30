@@ -1,0 +1,40 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Canonical: https://example.com/.well-known/security.txt
+
+Expires: 2024-05-01T22:00:01+00:00
+
+# If you would like to report a security issue please first read our
+# responsible disclosure policy:
+Policy: https://example.com
+
+# Please always try to contact us through our responsible disclosure form
+# to speed up things. Should that not be an option, then in order of
+# preference the ways to contact us are:
+Contact: https://example.com
+
+# We do *not* use OpenPGP, so do *not* use the key that was used to sign this
+# security.txt file for sending us messages. Use the S/MIME public key
+# below instead:
+Encryption: https://example.com
+
+# We can offer you a swift and proper response in the following languages:
+Preferred-Languages: en
+
+# If you think you'd like to join our team, please visit our job vacancy page:
+Hiring: https://example.com
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEE1Dq3YsqbrxP/iEqeBG5+nlOBwx0FAmSegw8ACgkQBG5+nlOB
+wx3siQwAmo+I9ezVOnLhr0KbdvB3FXXkvLOyTzFCCzWa0Ue+DVBhOUtYx3XKa1f/
+IMWDc4LtS2Sv4RTgc6TH8rvLB1IjShLC3g51DkceqoJNq42+JvFqkBMW/pFKvL8F
+FDf6fLrmATzLAyj+ZuOwWeFv/Y5AE0XZth15C4Z334nzfm66eivM1MiOPyE9wkRd
+fUkEqmG8P9dMIk5B2lcTlp7InTPR/OzONtz2wAEYU35D07/jgX8v+aXcA3jgJN/C
+x2u+5LGyWi4Ba/F3dt3qzHpkg9EzX+Vkp6fDiO8MyRI6wO+2NmzOYm9eG7Hn0I7C
+GvRD5iOsy8TKyINkK8XCp+T4r4zLzo/nB3yhFgcgmqcFZjZcGW/buIutUCvc047J
+LYjvTUzwmsy/8Py06iKVO2fjkf3ZVPk0oRal47DBFrm9D0udG1+bUyeckSBMSzZw
+4ClV2fgRnWr/JqaGY5up86Ez2/tZmX1mqjiEz+6ZGjGEuqRk22w5shKQh/gU0C4O
+kRQljeAH
+=Wh+g
+-----END PGP SIGNATURE-----

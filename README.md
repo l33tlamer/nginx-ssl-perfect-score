@@ -33,6 +33,15 @@ You can create your own file and then sign it with "gpg -s --clear-sign security
 
 For some things specific DNS records are required. As a example i use the excellent and free service of https://desec.io/
 
+
+# DNSSEC
+
+Your domain provider and your DNS provider both need to support DNSSEC. In this example DeSec are managing the DNS
+so they provide the required records in their interface. Submit those to your domain provider to get them added.
+How exactly will vary a lot between providers. With the example of DeSec for DNS and a free "eu.org" domain, you
+need to copy the DS records lines in this format into the interface at https://nic.eu.org (submit each line seperately):
+`example.eu.org.  86400  IN DS  38257 13 2 35dca...`
+
 # DANE TLSA
 
 You can use https://www.huque.com/bin/gen_tlsa to generate DANE TLSA records to use, a example output would be:

@@ -40,12 +40,14 @@ Your domain provider and your DNS provider both need to support DNSSEC. In this 
 so they provide the required records in their interface. Submit those to your domain provider to get them added.
 How exactly will vary a lot between providers. With the example of DeSec for DNS and a free "eu.org" domain, you
 need to copy the DS records lines in this format into the interface at https://nic.eu.org (submit each line seperately):
+
 `example.eu.org.  86400  IN DS  38257 13 2 35dca...`
 
 # DANE TLSA
 
 You can use https://www.huque.com/bin/gen_tlsa to generate DANE TLSA records to use, a example output would be:
-    `_443._tcp.example.com. IN TLSA 3 1 1 7843hngfdf832ffh8934rnsa821bnasdg73he983`
+
+`_443._tcp.example.com. IN TLSA 3 1 1 7843hngfdf832ffh8934rnsa821bnasdg73he983`
 
 Add this as a TLSA record to your domain. The 3-1-1 usage fields are important when generating.
 Paste your public SSL cert as PEM into the textfield, either just the cert or fullchain pem.
@@ -57,6 +59,7 @@ https://www.huque.com/bin/danecheck
 
 To generate CAA records you can use https://sslmate.com/caa/ and then add them to your domain.
 A example would be:
+
 ```
 Name 	         Type     Flags     Tags     Value
 example.com.	 CAA	  0         issue    "letsencrypt.org"

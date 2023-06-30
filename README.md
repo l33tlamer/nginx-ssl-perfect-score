@@ -33,6 +33,8 @@ You can create your own file and then sign it with "gpg -s --clear-sign security
 
 For some things specific DNS records are required. As a example i use the excellent and free service of https://desec.io/
 
+# DANE TLSA
+
 You can use https://www.huque.com/bin/gen_tlsa to generate DANE TLSA records to use, a example output would be:
     `_443._tcp.example.com. IN TLSA 3 1 1 7843hngfdf832ffh8934rnsa821bnasdg73he983`
 
@@ -41,6 +43,8 @@ Paste your public SSL cert as PEM into the textfield, either just the cert or fu
 
 After adding the record, propagation can take some time. You can test for the proper record with this:
 https://www.huque.com/bin/danecheck
+
+# CAA
 
 To generate CAA records you can use https://sslmate.com/caa/ and then add them to your domain.
 A example would be:

@@ -20,7 +20,7 @@ Follow the comments in the docker-compose.yml file.
 Folder lego contains scripts to issue and renew a Lets Encrypt certificate using the lego tool:
 https://github.com/go-acme/lego
 
-I would suggest you symlink the certificate files from the lego output folder to the nginx ssl folder.
+I would suggest you symlink the certificate files from the lego output folder to the nginx ssl folder. Beware of permissions.
 
 
 # security.txt

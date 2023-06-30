@@ -31,8 +31,7 @@ You can create your own file and then sign it with "gpg -s --clear-sign security
 
 # DNS setup
 
-For some things specific DNS records are required. As a example i use the excellent and free service by
-the non-profit located in Germany: https://desec.io/
+For some things specific DNS records are required. As a example i use the excellent and free service of https://desec.io/
 
 You can use https://www.huque.com/bin/gen_tlsa to generate DANE TLSA records to use, a example output would be:
     `_443._tcp.example.com. IN TLSA 3 1 1 7843hngfdf832ffh8934rnsa821bnasdg73he983`

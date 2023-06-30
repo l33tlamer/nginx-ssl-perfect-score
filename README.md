@@ -58,7 +58,7 @@ You can use https://www.huque.com/bin/gen_tlsa to generate DANE TLSA records to 
 
 `_443._tcp.example.com. IN TLSA 3 1 1 7843hngfdf832ffh8934rnsa821bnasdg73he983`
 
-Add this as a TLSA record to your domain. The 3-1-1 usage fields are important when generating.
+Add this as a TLSA record to your domain. The 3-1-1 usage fields are important when generating and recommended by Lets Encrypt.
 Paste your public SSL cert as PEM into the textfield, either just the cert or fullchain pem.
 
 After adding the record, propagation can take some time. You can test for the proper record with this:

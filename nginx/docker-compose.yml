@@ -1,5 +1,8 @@
 version: "3.3"
 
+# ipv6 is not required for SSL Labs test, but for internet.nl test
+# you must update your /etc/docker/daemon.json to enable this
+# see https://docs.docker.com/config/daemon/ipv6/
 networks:
   ipv6:
     enable_ipv6: true

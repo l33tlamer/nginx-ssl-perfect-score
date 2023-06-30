@@ -45,6 +45,7 @@ need to copy the DS records lines in this format into the interface at https://n
 
 # DANE TLSA
 
+You first must have a working DNSSEC setup, then you can proceed to add this.
 You can use https://www.huque.com/bin/gen_tlsa to generate DANE TLSA records to use, a example output would be:
 
 `_443._tcp.example.com. IN TLSA 3 1 1 7843hngfdf832ffh8934rnsa821bnasdg73he983`

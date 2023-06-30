@@ -53,6 +53,7 @@ Add this as a TLSA record to your domain. The 3-1-1 usage fields are important w
 Paste your public SSL cert as PEM into the textfield, either just the cert or fullchain pem.
 
 After adding the record, propagation can take some time. You can test for the proper record with this:
+
 https://www.huque.com/bin/danecheck
 
 # CAA

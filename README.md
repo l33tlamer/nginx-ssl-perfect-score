@@ -9,6 +9,11 @@ It also scores perfectly in the Website Test of internet.nl
 
 https://en.internet.nl/test-site/
 
+![Screenshot](/001.png)  
+
+![Screenshot](/002.png)  
+
+
 # nginx
 
 Folder nginx contains a complete but very basic setup of a nginx webserver.

@@ -3,16 +3,15 @@
 This is a simple "proof of concept" setup for the Qualys SSL Labs test
 to achieve a flawless A+ rating with 100 points in all 4 categories.
 
+![Screenshot](/001.png)  
+
 https://www.ssllabs.com/ssltest
 
 It also scores perfectly in the Website Test of internet.nl
 
-https://en.internet.nl/test-site/
-
-![Screenshot](/001.png)  
-
 ![Screenshot](/002.png)  
 
+https://en.internet.nl/test-site/
 
 # nginx
 
